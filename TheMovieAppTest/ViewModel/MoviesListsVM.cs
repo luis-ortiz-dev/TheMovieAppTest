@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace TheMovieAppTest.Service
+namespace TheMovieAppTest.ViewModel
 {
-    class ApiTMDB:IApiTMDB
+    class MoviesListsVM
     {
-
     }
 }

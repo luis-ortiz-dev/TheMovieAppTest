@@ -6,5 +6,6 @@ namespace TheMovieAppTest.Model
 {
     class MovieResumeModel
     {
+        [JsonProperty("")]
     }
 }
