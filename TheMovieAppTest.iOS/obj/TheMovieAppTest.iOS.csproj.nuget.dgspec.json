@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MEMO\\source\\repos\\TheMovieAppTest\\TheMovieAppTest.iOS\\TheMovieAppTest.iOS.csproj": {}
+    "D:\\DATOS\\Documents\\Repos\\TheMovieAppTest\\TheMovieAppTest.iOS\\TheMovieAppTest.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MEMO\\source\\repos\\TheMovieAppTest\\TheMovieAppTest.iOS\\TheMovieAppTest.iOS.csproj": {
+    "D:\\DATOS\\Documents\\Repos\\TheMovieAppTest\\TheMovieAppTest.iOS\\TheMovieAppTest.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MEMO\\source\\repos\\TheMovieAppTest\\TheMovieAppTest.iOS\\TheMovieAppTest.iOS.csproj",
+        "projectUniqueName": "D:\\DATOS\\Documents\\Repos\\TheMovieAppTest\\TheMovieAppTest.iOS\\TheMovieAppTest.iOS.csproj",
         "projectName": "TheMovieAppTest.iOS",
-        "projectPath": "C:\\Users\\MEMO\\source\\repos\\TheMovieAppTest\\TheMovieAppTest.iOS\\TheMovieAppTest.iOS.csproj",
+        "projectPath": "D:\\DATOS\\Documents\\Repos\\TheMovieAppTest\\TheMovieAppTest.iOS\\TheMovieAppTest.iOS.csproj",
         "packagesPath": "C:\\Users\\MEMO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MEMO\\source\\repos\\TheMovieAppTest\\TheMovieAppTest.iOS\\obj\\",
+        "outputPath": "D:\\DATOS\\Documents\\Repos\\TheMovieAppTest\\TheMovieAppTest.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\MEMO\\source\\repos\\TheMovieAppTest\\TheMovieAppTest\\TheMovieAppTest.csproj": {
-                "projectPath": "C:\\Users\\MEMO\\source\\repos\\TheMovieAppTest\\TheMovieAppTest\\TheMovieAppTest.csproj"
+              "D:\\DATOS\\Documents\\Repos\\TheMovieAppTest\\TheMovieAppTest\\TheMovieAppTest.csproj": {
+                "projectPath": "D:\\DATOS\\Documents\\Repos\\TheMovieAppTest\\TheMovieAppTest\\TheMovieAppTest.csproj"
               }
             }
           }
@@ -65,14 +65,14 @@
         }
       }
     },
-    "C:\\Users\\MEMO\\source\\repos\\TheMovieAppTest\\TheMovieAppTest\\TheMovieAppTest.csproj": {
+    "D:\\DATOS\\Documents\\Repos\\TheMovieAppTest\\TheMovieAppTest\\TheMovieAppTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MEMO\\source\\repos\\TheMovieAppTest\\TheMovieAppTest\\TheMovieAppTest.csproj",
+        "projectUniqueName": "D:\\DATOS\\Documents\\Repos\\TheMovieAppTest\\TheMovieAppTest\\TheMovieAppTest.csproj",
         "projectName": "TheMovieAppTest",
-        "projectPath": "C:\\Users\\MEMO\\source\\repos\\TheMovieAppTest\\TheMovieAppTest\\TheMovieAppTest.csproj",
+        "projectPath": "D:\\DATOS\\Documents\\Repos\\TheMovieAppTest\\TheMovieAppTest\\TheMovieAppTest.csproj",
         "packagesPath": "C:\\Users\\MEMO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MEMO\\source\\repos\\TheMovieAppTest\\TheMovieAppTest\\obj\\",
+        "outputPath": "D:\\DATOS\\Documents\\Repos\\TheMovieAppTest\\TheMovieAppTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

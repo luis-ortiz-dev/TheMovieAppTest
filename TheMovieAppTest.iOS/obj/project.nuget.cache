@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qJ21/iXZaWYeLNVSmGMbW8/r/I7+EtMQdx/AWuFvbLqLNKtHdU3aBKnqwEJyQXMg2NPkhU0U6IIRFz6ANv8UWg==",
+  "dgSpecHash": "CHkvk8PjRiDUAA90tcc10Ln+MdBAaYPAliBWnL6ufWor0fzJr0s9HBUcXhAVLXWQeS4Cp1X7fM/bKDGr0dcdgA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MEMO\\source\\repos\\TheMovieAppTest\\TheMovieAppTest.iOS\\TheMovieAppTest.iOS.csproj",
+  "projectFilePath": "D:\\DATOS\\Documents\\Repos\\TheMovieAppTest\\TheMovieAppTest.iOS\\TheMovieAppTest.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MEMO\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",

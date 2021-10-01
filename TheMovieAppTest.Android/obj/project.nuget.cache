@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "itq2G+BXdnVulvp4W5kBWxTtEUFY+dzQF+LzdXz9kQC2LpUDPTKCNxPjpCWD6fVVYXCO4Dq4VFd/6IJDtUTGLQ==",
+  "dgSpecHash": "Q5iuoN/KrTFiRx8Y0XNMZltcGdEQXxx3HUmBSjY3TT+Ylsjxh6vLnxKISkuE7tj16/LHCRqE2XsOajl7fvmLvw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MEMO\\source\\repos\\TheMovieAppTest\\TheMovieAppTest.Android\\TheMovieAppTest.Android.csproj",
+  "projectFilePath": "D:\\DATOS\\Documents\\Repos\\TheMovieAppTest\\TheMovieAppTest.Android\\TheMovieAppTest.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MEMO\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.activity\\1.1.0.5\\xamarin.androidx.activity.1.1.0.5.nupkg.sha512",

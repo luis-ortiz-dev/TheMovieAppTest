@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jpuH5IVYiTW4c9UO7SvFFr4BUSyD4xP6iNpScxHfmt1IKGWIbbG1R821QsrZ3XWP3bv4rzyguyHnQEi6mtTcqg==",
+  "dgSpecHash": "ogVPPG96r2JiJc2zScbv9M4oORoRIpTsOSzniyOBcRWZnc+F5hXXavDSzN7TPVQkyMiG4XZRJeYY3iRd7gpgmw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MEMO\\source\\repos\\TheMovieAppTest\\TheMovieAppTest\\TheMovieAppTest.csproj",
+  "projectFilePath": "D:\\DATOS\\Documents\\Repos\\TheMovieAppTest\\TheMovieAppTest\\TheMovieAppTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MEMO\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\MEMO\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

@@ -540,11 +540,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MEMO\\source\\repos\\TheMovieAppTest\\TheMovieAppTest\\TheMovieAppTest.csproj",
+      "projectUniqueName": "D:\\DATOS\\Documents\\Repos\\TheMovieAppTest\\TheMovieAppTest\\TheMovieAppTest.csproj",
       "projectName": "TheMovieAppTest",
-      "projectPath": "C:\\Users\\MEMO\\source\\repos\\TheMovieAppTest\\TheMovieAppTest\\TheMovieAppTest.csproj",
+      "projectPath": "D:\\DATOS\\Documents\\Repos\\TheMovieAppTest\\TheMovieAppTest\\TheMovieAppTest.csproj",
       "packagesPath": "C:\\Users\\MEMO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MEMO\\source\\repos\\TheMovieAppTest\\TheMovieAppTest\\obj\\",
+      "outputPath": "D:\\DATOS\\Documents\\Repos\\TheMovieAppTest\\TheMovieAppTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

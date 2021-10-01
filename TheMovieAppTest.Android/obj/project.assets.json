@@ -2148,11 +2148,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MEMO\\source\\repos\\TheMovieAppTest\\TheMovieAppTest.Android\\TheMovieAppTest.Android.csproj",
+      "projectUniqueName": "D:\\DATOS\\Documents\\Repos\\TheMovieAppTest\\TheMovieAppTest.Android\\TheMovieAppTest.Android.csproj",
       "projectName": "TheMovieAppTest.Android",
-      "projectPath": "C:\\Users\\MEMO\\source\\repos\\TheMovieAppTest\\TheMovieAppTest.Android\\TheMovieAppTest.Android.csproj",
+      "projectPath": "D:\\DATOS\\Documents\\Repos\\TheMovieAppTest\\TheMovieAppTest.Android\\TheMovieAppTest.Android.csproj",
       "packagesPath": "C:\\Users\\MEMO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MEMO\\source\\repos\\TheMovieAppTest\\TheMovieAppTest.Android\\obj\\",
+      "outputPath": "D:\\DATOS\\Documents\\Repos\\TheMovieAppTest\\TheMovieAppTest.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2173,8 +2173,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "C:\\Users\\MEMO\\source\\repos\\TheMovieAppTest\\TheMovieAppTest\\TheMovieAppTest.csproj": {
-              "projectPath": "C:\\Users\\MEMO\\source\\repos\\TheMovieAppTest\\TheMovieAppTest\\TheMovieAppTest.csproj"
+            "D:\\DATOS\\Documents\\Repos\\TheMovieAppTest\\TheMovieAppTest\\TheMovieAppTest.csproj": {
+              "projectPath": "D:\\DATOS\\Documents\\Repos\\TheMovieAppTest\\TheMovieAppTest\\TheMovieAppTest.csproj"
             }
           }
         }
