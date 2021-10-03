@@ -10,6 +10,9 @@ namespace TheMovieAppTest.Model
         [JsonProperty("id")]
         public int Id { get; set; }
 
+        [JsonProperty("cast")]
+        public List<CastDetailModel> Cast { get; set; }
+
     }
 
     class CastDetailModel

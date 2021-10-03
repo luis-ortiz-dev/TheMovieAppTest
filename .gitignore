@@ -369,3 +369,11 @@ TheMovieAppTest/obj/project.assets.json
 TheMovieAppTest/obj/project.nuget.cache
 
 TheMovieAppTest/obj/TheMovieAppTest.csproj.nuget.dgspec.json
+
+TheMovieAppTest/obj/TheMovieAppTest.csproj.nuget.g.props
+
+TheMovieAppTest/obj/Debug/netstandard2.0/App.xaml.g.cs
+
+TheMovieAppTest/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+
+TheMovieAppTest/obj/Debug/netstandard2.0/TheMovieAppTest.csproj.AssemblyReference.cache
