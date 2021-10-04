@@ -1,6 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using TheMovieAppTest.View;
 
 namespace TheMovieAppTest
 {
@@ -10,7 +11,7 @@ namespace TheMovieAppTest
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new MoviesListsPage());
         }
 
         protected override void OnStart()

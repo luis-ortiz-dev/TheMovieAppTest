@@ -1,6 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Text;
 
 namespace TheMovieAppTest.Model
@@ -11,7 +12,7 @@ namespace TheMovieAppTest.Model
         public int Page { get; set; }
         
         [JsonProperty("results")]
-        public List<MovieResumeModel> Results { get; set; }
+        public ObservableCollection<MovieResumeModel> Results { get; set; }
 
         [JsonProperty("total_results")]
         public int TotalResults { get; set; }

@@ -14,11 +14,10 @@ namespace TheMovieAppTest.Service
         string base_url = "https://api.themoviedb.org/3/movie/";
         string image_url = "http://image.tmdb.org/t/p/";
         string api_key = "6341b9a2262c44a43467bc1f5e23bf5e";
-        string size_backdrop = "w300";
-        string size_poster = "w92";
+        string size_backdrop = "w300";        
         string size_profile = "w45";
 
-        public async Task<ObservableCollection<MovieCreditsModel>> GetMovieCredits(string movie_id)
+        public async Task<MovieCreditsModel> getMovieCredits(string movie_id)
         {
             try
             {
@@ -31,7 +30,7 @@ namespace TheMovieAppTest.Service
                 if (response.StatusCode == System.Net.HttpStatusCode.OK)
                 {
                     var result = await response.Content.ReadAsStringAsync();
-                    var json = JsonConvert.DeserializeObject<ObservableCollection<MovieCreditsModel>>(result);
+                    var json = JsonConvert.DeserializeObject<MovieCreditsModel>(result);
                     return json;
                 }
 
@@ -44,7 +43,7 @@ namespace TheMovieAppTest.Service
             }
         }
 
-        public async Task<ObservableCollection<MovieDetailsModel>> getMovieDetails(string movie_id)
+        public async Task<MovieDetailsModel> getMovieDetails(string movie_id)
         {
             try
             {
@@ -57,7 +56,7 @@ namespace TheMovieAppTest.Service
                 if (response.StatusCode == System.Net.HttpStatusCode.OK)
                 {
                     var result = await response.Content.ReadAsStringAsync();
-                    var json = JsonConvert.DeserializeObject<ObservableCollection<MovieDetailsModel>>(result);
+                    var json = JsonConvert.DeserializeObject<MovieDetailsModel>(result);
                     return json;
                 }
 
@@ -70,7 +69,7 @@ namespace TheMovieAppTest.Service
             }
         }
 
-        public async Task<ObservableCollection<MovieListModel>> getMovieList(string list_name)
+        public async Task<MovieListModel> getMovieList(string list_name)
         {
             try
             {
@@ -83,7 +82,7 @@ namespace TheMovieAppTest.Service
                 if(response.StatusCode == System.Net.HttpStatusCode.OK)
                 {
                     var result = await response.Content.ReadAsStringAsync();
-                    var json = JsonConvert.DeserializeObject<ObservableCollection<MovieListModel>>(result);
+                    var json = JsonConvert.DeserializeObject<MovieListModel>(result);
                     return json;
                 }
 
