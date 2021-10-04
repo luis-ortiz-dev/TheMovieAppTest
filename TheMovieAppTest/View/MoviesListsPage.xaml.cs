@@ -12,10 +12,12 @@ namespace TheMovieAppTest.View
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MoviesListsPage : ContentPage
     {
-        MoviesListsVM vm => BindingContext as MoviesListsVM;
+        MoviesListsVM vm;
         public MoviesListsPage()
         {
             InitializeComponent();
+            vm = new MoviesListsVM(Navigation);
+            BindingContext = vm;
         }
 
         void OnTextChanged(object sender, EventArgs e)

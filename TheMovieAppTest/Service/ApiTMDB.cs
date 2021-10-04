@@ -6,16 +6,19 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using TheMovieAppTest.Model;
+using TheMovieAppTest.Service;
+using Xamarin.Forms;
 
+[assembly: Dependency(typeof(ApiTMDB))]
 namespace TheMovieAppTest.Service
 {
     class ApiTMDB : IApiTMDB
     {
         string base_url = "https://api.themoviedb.org/3/movie/";
-        string image_url = "http://image.tmdb.org/t/p/";
+        //string image_url = "http://image.tmdb.org/t/p/";
         string api_key = "6341b9a2262c44a43467bc1f5e23bf5e";
-        string size_backdrop = "w300";        
-        string size_profile = "w45";
+        //string size_backdrop = "w300";        
+        //string size_profile = "w45";
 
         public async Task<MovieCreditsModel> getMovieCredits(string movie_id)
         {

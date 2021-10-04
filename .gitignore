@@ -377,3 +377,23 @@ TheMovieAppTest/obj/Debug/netstandard2.0/App.xaml.g.cs
 TheMovieAppTest/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
 
 TheMovieAppTest/obj/Debug/netstandard2.0/TheMovieAppTest.csproj.AssemblyReference.cache
+
+TheMovieAppTest.Android/obj/.cache/com.companyname.themovieapptest.flag
+
+TheMovieAppTest.Android/obj/Debug/110/lp/45/jl/res/layout/fallbacktabbardonotuse.xml
+
+TheMovieAppTest.Android/obj/Debug/110/designtime/Resource.designer.cs
+
+TheMovieAppTest.Android/obj/Debug/110/lp/45/jl/res/layout/flyoutcontent.xml
+
+TheMovieAppTest.Android/obj/Debug/110/lp/45/jl/res/layout/rootlayout.xml
+
+TheMovieAppTest.Android/obj/Debug/110/lp/45/jl/res/layout/shellcontent.xml
+
+TheMovieAppTest.Android/obj/Debug/110/lp/45/jl/res/layout/tabbar.xml
+
+TheMovieAppTest.Android/obj/Debug/110/lp/45/jl/res/values/attrs.xml
+
+TheMovieAppTest.Android/obj/Debug/110/lp/45/jl/res/values/styles.xml
+
+TheMovieAppTest.Android/Resources/Resource.designer.cs
