@@ -24,7 +24,7 @@
                     SelectionMode="Single"
                     ItemsSource="{Binding TopRatedMoviesList}"
                     SelectionChangedCommand="{Binding SelectionChangedTopRatedCommand}"
-                    SelectedItem="{Binding SelectedItemTop}"
+                    SelectedItem="{Binding SelectedItemTopRated}"
                     HeightRequest="155">
                         <CollectionView.ItemTemplate>
                             <DataTemplate>

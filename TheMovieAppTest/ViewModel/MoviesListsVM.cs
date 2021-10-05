@@ -26,9 +26,9 @@ namespace TheMovieAppTest.ViewModel
         public ObservableCollection<MovieResumeModel> TopRatedMoviesList { get; set; }
         public ObservableCollection<MovieResumeModel> UpcomingMoviesList { get; set; }
         public ObservableCollection<MovieResumeModel> PopularMoviesList { get; set; }
-        public ObservableCollection<MovieResumeModel> auxTopRatedList { get; set; }
-        public ObservableCollection<MovieResumeModel> auxUpcomingList { get; set; }
-        public ObservableCollection<MovieResumeModel> auxPopularList { get; set; }
+        public ObservableCollection<MovieResumeModel> AuxTopRatedList { get; set; }
+        public ObservableCollection<MovieResumeModel> AuxUpcomingList { get; set; }
+        public ObservableCollection<MovieResumeModel> AuxPopularList { get; set; }
 
         public MovieResumeModel SelectedItemTopRated { get; set; }
         public MovieResumeModel SelectedItemUpcoming { get; set; }
@@ -45,9 +45,9 @@ namespace TheMovieAppTest.ViewModel
             TopRatedMoviesList = new ObservableCollection<MovieResumeModel>();
             UpcomingMoviesList = new ObservableCollection<MovieResumeModel>();
             PopularMoviesList = new ObservableCollection<MovieResumeModel>();
-            auxTopRatedList = new ObservableCollection<MovieResumeModel>();
-            auxUpcomingList = new ObservableCollection<MovieResumeModel>();
-            auxPopularList = new ObservableCollection<MovieResumeModel>();
+            AuxTopRatedList = new ObservableCollection<MovieResumeModel>();
+            AuxUpcomingList = new ObservableCollection<MovieResumeModel>();
+            AuxPopularList = new ObservableCollection<MovieResumeModel>();
 
             GetTopRatedMoviesListCommand.Execute(null);
             GetUpcomingMoviesListCommand.Execute(null);
@@ -74,7 +74,7 @@ namespace TheMovieAppTest.ViewModel
             }
 
             TopRatedMoviesList = new ObservableCollection<MovieResumeModel>(Response.Results);
-            auxTopRatedList = new ObservableCollection<MovieResumeModel>(Response.Results);
+            AuxTopRatedList = new ObservableCollection<MovieResumeModel>(Response.Results);
             OnPropertyChanged(nameof(TopRatedMoviesList));
         }
 
@@ -88,7 +88,7 @@ namespace TheMovieAppTest.ViewModel
             }
 
             UpcomingMoviesList = new ObservableCollection<MovieResumeModel>(Response.Results);
-            auxUpcomingList = new ObservableCollection<MovieResumeModel>(Response.Results);
+            AuxUpcomingList = new ObservableCollection<MovieResumeModel>(Response.Results);
             OnPropertyChanged(nameof(UpcomingMoviesList));
         }
 
@@ -102,7 +102,7 @@ namespace TheMovieAppTest.ViewModel
             }
 
             PopularMoviesList = new ObservableCollection<MovieResumeModel>(Response.Results);
-            auxPopularList = new ObservableCollection<MovieResumeModel>(Response.Results);
+            AuxPopularList = new ObservableCollection<MovieResumeModel>(Response.Results);
             OnPropertyChanged(nameof(PopularMoviesList));
         }
 
@@ -110,7 +110,9 @@ namespace TheMovieAppTest.ViewModel
         {
             Application.Current.Properties["movieId"] = SelectedItemTopRated.Id;
 
-            await Navigation.PushAsync(new MovieDetailsPage());
+            MovieDetailsPage newPage = new MovieDetailsPage();
+            await Navigation.PushAsync(newPage);
+            //await Shell.Current.GoToAsync(nameof(MovieDetailsPage));
         }
 
         private async Task SelectionChangedUpcomingCommandExecute()
@@ -131,9 +133,9 @@ namespace TheMovieAppTest.ViewModel
         {
             if(text.Equals(null))
             {
-                TopRatedMoviesList = new ObservableCollection<MovieResumeModel>(auxTopRatedList);
-                UpcomingMoviesList = new ObservableCollection<MovieResumeModel>(auxUpcomingList);
-                PopularMoviesList = new ObservableCollection<MovieResumeModel>(auxPopularList);
+                TopRatedMoviesList = new ObservableCollection<MovieResumeModel>(AuxTopRatedList);
+                UpcomingMoviesList = new ObservableCollection<MovieResumeModel>(AuxUpcomingList);
+                PopularMoviesList = new ObservableCollection<MovieResumeModel>(AuxPopularList);
                 return;
             }
 
@@ -143,7 +145,7 @@ namespace TheMovieAppTest.ViewModel
             List<MovieResumeModel> newList2 = new List<MovieResumeModel>();
             List<MovieResumeModel> newList3 = new List<MovieResumeModel>();
 
-            foreach (MovieResumeModel Resume in auxTopRatedList)
+            foreach (MovieResumeModel Resume in AuxTopRatedList)
             {
                 if (Resume.Title.ToLower().Contains(text))
                 {
@@ -151,7 +153,7 @@ namespace TheMovieAppTest.ViewModel
                 }
             }
             
-            foreach (MovieResumeModel Resume in auxUpcomingList)
+            foreach (MovieResumeModel Resume in AuxUpcomingList)
             {
                 if (Resume.Title.ToLower().Contains(text))
                 {
@@ -159,7 +161,7 @@ namespace TheMovieAppTest.ViewModel
                 }
             }
             
-            foreach (MovieResumeModel Resume in auxPopularList)
+            foreach (MovieResumeModel Resume in AuxPopularList)
             {
                 if (Resume.Title.ToLower().Contains(text))
                 {
